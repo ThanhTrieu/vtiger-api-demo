@@ -25,7 +25,7 @@ if(!empty($strController)){
     $GLOBALS['paramsQuery'] = [];
 }
 
-$obj = NAME_SAPCE_CONTROLLER . "{$controller}Controller";
+$obj = NAME_SPACE_CONTROLLER . "{$controller}Controller";
 $checkController = str_replace('\\','/',trim($obj,'\\')).'.php';
 
 if(file_exists($checkController)){

@@ -5,5 +5,5 @@ const CRM_ACCESS_KEY = "knJmsg6InEZm28PO";
 const APP_DEBUG = true;
 
 const APP_ROOT_PATH = 'index.php';
-const NAME_SAPCE_CONTROLLER ="App\Controller\\";
-const NAME_SAPCE_MODEL = "App\Model\\";
+const NAME_SPACE_CONTROLLER ="App\Controller\\";
+const NAME_SPACE_MODEL = "App\Model\\";

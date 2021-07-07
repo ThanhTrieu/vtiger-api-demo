@@ -25,6 +25,6 @@ class HomeController extends Controller
     public function exp()
     {
         echo "<pre>";
-        var_dump(getParamQueryString('id'));
+        var_dump(getParamQueryString('p'));
     }
 }
