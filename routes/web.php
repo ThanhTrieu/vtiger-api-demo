@@ -32,6 +32,10 @@ if(file_exists($checkController)){
     $request = new $obj();
     $request->$method(...$paramsQuery);
 }else {
-    header('Location:upgrade.php');
+    header('Content-type: application/json');
+    echo json_encode([
+        'cod' => 500,
+        'message' => 'Not found request'
+    ]);
 }
 
